@@ -40,7 +40,7 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: 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
+      token: abcdef
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -87,8 +87,8 @@ auth:
   providers:
     github:
       development:
-        clientId: 7fd2644f3936302124ff
-        clientSecret: b5abc05802d6e62c100142c7843445c211fd1ec9
+        clientId: 777777
+        clientSecret: 9
         audience: https://github.com
         callbackUrl: http://localhost:7007/api/auth/github/handler/frame
 
